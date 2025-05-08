@@ -1,0 +1,574 @@
+.beyaz{background-color: white;}
+        .h100{
+            height: 100px;
+        }
+        .margin{
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        .gri{
+            border: 1px solid black;
+            height: 700px;
+        }
+        .header{
+            background-color: rgb(180, 175, 175);
+            width: 100%;
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+        .link {
+    margin-right: 15px; /* Linkler arasında 15px boşluk bırakmak için */
+}
+
+.buton {
+    margin-left: 10px;
+    border: none;
+    background-color: transparent;
+}
+
+.close {
+  margin-left: 10px;
+  border: none;
+  background-color: transparent;
+}
+
+.close img{
+  width: 30px; /* Resmin genişliğini otomatik olarak ayarlıyoruz */
+  height: 30px; /* Resmin yüksekliğini otomatik olarak ayarlıyoruz */
+}
+
+        .link img{
+            margin-bottom: 5px;
+            width: 40px; /* Resmin genişliğini otomatik olarak ayarlıyoruz */
+            height: 40px; /* Resmin yüksekliğini otomatik olarak ayarlıyoruz */
+        }
+        .buton img{
+            width: 30px; /* Resmin genişliğini otomatik olarak ayarlıyoruz */
+            height: 30px; /* Resmin yüksekliğini otomatik olarak ayarlıyoruz */
+        }
+
+        .kategoriler{
+            background-color: gray;
+            margin-top: 20px;
+            margin-bottom: 5px;
+            list-style-type: none;
+            display: flex;
+            width: 100%; /* Genişliği %100 yaptık */
+            justify-content: center; /* Yatayda ortala */
+        }
+
+        .kategoriler ul {
+            display: flex; /* ul'yi flex yaptık */
+            padding: 0; /* ul'nin varsayılan padding'ini kaldırdık */
+            margin: 0; /* ul'nin varsayılan margin'ini kaldırdık */
+            width: 1116px; /* İçeriğin genişliğini ayarladık */
+            justify-content: space-around; /* Öğeleri eşit aralıklarla dağıt */
+        }
+        .kategoriler ul li a{
+            color: white;
+            text-decoration: none;
+        }
+
+        .kategoriler ul li{
+            margin-right: 20px;
+            width: 225px; /* Her bir öğenin genişliğini 1116px'e bölerek eşitler */
+            text-align: center; /* Öğeleri ortalar */
+
+        }
+
+        .renk{
+            color: black;
+        }
+
+        .ınsta img{
+            display: flex;
+            float: left;
+            margin-right: 1300px;
+        
+        }
+        .kategoriler {
+    background-color: gray;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.kategoriler ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 1116px;
+    justify-content: space-around;
+}
+
+.kategoriler ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    background-color: gray; /* Arka plan rengini ekle */
+}
+
+.kategoriler ul li {
+    margin-right: 20px;
+    width: auto;
+    text-align: center;
+}
+
+.kategoriler ul li a:hover {
+    text-decoration: underline;
+}
+
+        .kategoriler ul li a:hover{
+            text-decoration: underline;
+        }
+        .w{
+            width: 300px;
+        }
+
+        .resim{
+            width: 30px;
+            height: 30px;
+        }
+        .map{
+            height: 310px;
+        }
+        .link{
+            color: white;
+            text-decoration: none;
+        }
+        .link:hover{
+            color: white;
+            text-decoration: underline;
+        }
+
+        .gölge{
+            border-radius: 8px; /* Köşe yuvarlaklığını biraz artırdım */
+            box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .social-links {
+    display: flex;         /* Elemanları yatayda hizalar */
+    gap: 15px;             /* Elemanlar arasındaki boşluk 15px olacak */
+}
+
+        .product-card {
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+            background: #fff;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        .product-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .product-price {
+            font-size: 20px;
+            font-weight: bold;
+            color: #28a745;
+            margin: 10px 0;
+        }
+        .product-rating {
+            color: #ffc107;
+            font-size: 18px;
+        }
+        .product-desc {
+            font-size: 14px;
+            color: #555;
+            margin-top: 10px;
+        }
+        .btn-add-to-cart {
+            margin-top: 10px;
+            width: 100%;
+        }
+        .sepet{
+          text-decoration: none;
+          color: #000;
+        }
+        .wp{
+          margin-left: 15px;
+        }
+        /* Genel Ayar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header'ı flexbox ile hizalayalım */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    flex-wrap: wrap;
+}
+
+.header .link {
+    margin: 0 10px;
+}
+
+.header .buton {
+    margin-left: 10px;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+.kategoriler ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.kategoriler li {
+    flex: 1;
+    text-align: center;
+}
+
+/* Responsive Carousel Resimleri */
+.carousel-inner img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Modal Butonları */
+.header .container div {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+/* Mobilde Flexi Uyumlu Düzenlemeler */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header .container div {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .kategoriler ul {
+        flex-direction: column;
+    }
+
+    .kategoriler li {
+        margin: 5px 0;
+    }
+
+    .carousel-inner {
+        height: auto;
+    }
+
+    /* Resimler ve Banner Uyumlu */
+    .container img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Mobil Slayt Düzeni */
+    .row {
+        flex-direction: column;
+    }
+
+    .col-7, .col-5 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Masaüstü Tasarımında Esneklik */
+@media (min-width: 769px) {
+    .carousel-inner img {
+        height: 240px;
+    }
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .col-7, .col-5 {
+        width: 48%;
+    }
+}
+
+/* Genel Stil */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Harita iframe ayarları */
+footer iframe {
+    width: 100%;
+    height: 250px; /* Harita boyutunu mobilde daha küçük tutuyoruz */
+    border: 0;
+}
+
+/* Formu düzenle */
+footer form {
+    width: 100%;
+}
+
+footer .form-control {
+    margin-bottom: 10px;
+}
+
+/* Tablet ve Mobil Cihazlar için Uyarlamalar */
+@media (max-width: 768px) {
+    /* İletişim formunu ve haritayı dikey hizalayalım */
+    .row {
+        flex-direction: column;
+    }
+
+    /* Harita kısmına biraz daha küçük boyutlar verelim */
+    footer iframe {
+        height: 200px;
+    }
+
+    /* Form elemanlarının boyutunu genişletelim */
+    footer .form-control {
+        width: 100%;
+    }
+
+    /* Butonun boyutunu arttıralım */
+    footer .btn {
+        width: 100%;
+    }
+
+    /* Form başlıklarını ortalayalım */
+    footer h5 {
+        text-align: center;
+    }
+}
+
+/* Masaüstü Cihazlar için Uyarlamalar */
+@media (min-width: 769px) {
+    /* Harita ve formu yan yana yerleştirelim */
+    .row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* Harita kısmını daha geniş tutalım */
+    footer iframe {
+        height: 300px;
+    }
+
+    /* Form elemanlarını biraz daraltalım */
+    footer .form-control {
+        width: 70%;
+    }
+
+    /* Butonun boyutunu normal tutalım */
+    footer .btn {
+        width: auto;
+    }
+}
+/* Genel Stil */
+/* Navbar'ın genel stili */
+.navbar {
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+}
+
+/* Navbar logolarının boyutları */
+.social-icons a {
+  margin-right: 15px;
+}
+
+.social-icons img {
+  width: 25px;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-icons a:hover img {
+  transform: scale(1.2); /* Hoverda büyüme efekti */
+}
+
+/* Navbar içerik hizalaması */
+.navbar-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar-nav .nav-link {
+  color: #333;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff; /* Hoverda renk değişimi */
+}
+
+/* Butonlar */
+.button-group {
+  display: flex;
+  justify-content: flex-start; /* Butonları sola hizalar */
+  gap: 15px;
+  align-items: center; /* Butonları dikey olarak hizalar */
+}
+
+.buton {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  background-color: transparent;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.buton:hover {
+  background-color: #f0f0f0;
+  border-color: #007bff;
+}
+
+.buton img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.buton span {
+  font-size: 14px;
+  font-weight: bold;
+}
+/* Mobil görünüm için butonların hizalanması */
+@media (max-width: 768px) {
+  .button-group {
+    flex-direction: column; /* Butonları dikey hizalar */
+    align-items: flex-start; /* Butonları sola hizalar */
+    margin: 10px 0; /* Butonlar arasında boşluk bırakır */
+  }
+  
+  .button-group .buton {
+    width: 100%; /* Butonları tam genişlikte yapar */
+    text-align: left; /* Metni sola hizalar */
+    padding: 10px; /* Buton içine dolgu ekler */
+  }
+}
+/* Mobilde hamburger menüsünü gizle */
+@media (max-width: 991px) {
+  .navbar-nav {
+    display: none;
+  }
+
+  .navbar-toggler {
+    display: block;
+  }
+
+  .navbar-collapse {
+    width: 100%;
+  }
+
+  .button-group.collapse {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+}
+/* Masaüstü görünümde butonları ortada tutma */
+@media (min-width: 769px) {
+  .button-group {
+    justify-content: flex-start; /* Butonları sola hizalar */
+  }
+}
+
+/* Navbar genişliğini ve görünümünü ayarla */
+.navbar {
+  padding: 10px 20px;
+}
+
+/* Hamburger menüsü ikonunun boyutunu küçült */
+.navbar-toggler-icon {
+  width: 30px;
+  height: 30px;
+}
+
+/* Menüye daha fazla boşluk ekle */
+.button-group {
+  display: flex;
+  gap: 15px;
+}
+
+.button-group .buton {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.button-group .buton img {
+  width: 20px; /* İkonların boyutunu küçült */
+  height: 20px;
+}
+
+.button-group .buton a {
+  font-size: 14px;
+  color: #000;
+  text-decoration: none;
+}
+
+.button-group .buton:hover {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+/* Mobilde menü yeri */
+@media (max-width: 767px) {
+  .navbar-collapse {
+    width: 100%;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .button-group {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .button-group .buton {
+    width: 100%;
+    justify-content: flex-start;
+    padding: 12px;
+  }
+}

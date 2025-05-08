@@ -1,0 +1,75 @@
+
+.summary-image:hover{
+    border:2px solid #eee;
+}/* Carousel indicator container */
+/* Carousel indicator container */
+.carousel-indicators-custom {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;  /* Sayıları ön plana getirebilir */
+}
+
+.arkaplan{
+    background-color: gray;
+}
+
+/*<img src="pc.png" alt=""><button class="btn btn-primary btn"><img class="resim" src="sepet.png" alt=""> Sepete Ekle</button>*/
+
+/* Carousel indicator numbers (sayılara stil) */
+.carousel-indicators-custom span {
+    background-color: #ffffff;
+    color: #000;  /* Normalde sayıların rengi siyah */
+    border-radius: 50%;
+    display: inline-block;
+    width: 30px;  /* Sayıların boyutunu ayarlayın */
+    height: 30px;  /* Sayıların boyutunu ayarlayın */
+    text-align: center;
+    line-height: 30px;
+    margin: 0 5px;
+    font-size: 16px;  /* Sayı font boyutunu ayarlayın */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover durumundaki butonlar için stil */
+.carousel-indicators-custom span:hover {
+    background-color: #007bff; /* Hoverda arka plan mavi */
+    color: white; /* Hoverda yazı rengi beyaz */
+}
+
+/* Aktif buton için stil (aktif sayıyı mavi yapacak) */
+.carousel-indicators-custom span.active {
+    background-color: #007bff;  /* Aktif slide için mavi arka plan */
+    color: white; /* Aktif olduğunda yazı beyaz */
+}
+
+/* Alternatif buton düzenlemeleri (butonlar) */
+.carousel-indicators-custom button {
+    background-color: #fff; /* Normalde buton beyaz */
+    color: #000; /* Normalde yazı rengi siyah */
+    border: 1px solid #000; /* Butonun etrafında siyah bir sınır */
+    padding: 10px; /* Buton boyutlarını ayarlayın */
+    font-size: 16px; /* Buton üzerindeki yazının boyutu */
+    transition: all 0.3s ease; /* Hover geçiş efekti */
+}
+
+/* Hover durumunda buton */
+.carousel-indicators-custom button:hover {
+    background-color: #007bff; /* Hoverda arka plan mavi */
+    color: #fff; /* Hoverda yazı rengi beyaz */
+    border-color: #0056b3; /* Hoverda buton etrafındaki sınır mavi */
+}
+
+/* Aktif olan buton */
+.carousel-indicators-custom button.active {
+    background-color: #007bff; /* Aktif butonun arka planı mavi */
+    color: #fff; /* Aktif butonun yazı rengi beyaz */
+    border-color: #0056b3; /* Aktif butonun etrafındaki sınır mavi */
+}
+
+
+/* Diğer CSS stilleri... */
